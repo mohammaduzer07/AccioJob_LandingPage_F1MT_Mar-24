@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccioJob Landing Page</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+        .hero-left {
+            padding-left: 4rem !important;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            width: 60%;
+        }
+
+        .hero1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+
+        }
+
+        .below-hero-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 95%;
+            margin-left: 2%;
+            margin-top: 20px;
+            padding: 90px 108px 90px 108px;
+        }
+
+        .Highest-Salary {
+            color: #4f4f4f;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 155%;
+            /* 18.6px */
+            letter-spacing: 0.12px;
+        }
+
+        .l1 {
+            color: #2b2f34;
+            font-family: ABeeZee;
+            font-size: 50px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 130%;
+            /* 65px */
+            letter-spacing: -0.75px;
+        }
+
+        .launchyourcareer1 {
+            display: flex;
+            color: #221f48;
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 130%;
+            line-height-step: 20px;
+            letter-spacing: -0.75px;
+
+        }
+
+        .launchyourcareer1>p {
+            color: #2f80ed;
+            font-size: 50px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 130%;
+            /* 65px */
+            letter-spacing: -0.75px;
+        }
+
+        .curriculum {
+            display: flex;
+            margin-right: 10px;
+        }
+
+        .lakh41 {
+            color: #2b2f34;
+            font-family: ABeeZee;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 130%;
+        }
+
+        .Highest-Salary {
+            color: #4f4f4f;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 155%;
+            /* 18.6px */
+            letter-spacing: 0.12px;
+        }
+
+        .left-above-hero-sec {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 30px;
+            width: 711px;
+            height: 65px;
+            padding-bottom: 20px;
+            padding-top: 70px;
+            padding-left: 0%;
+            align-items: flex-end;
+            gap: 34px;
+            border-radius: 8px;
+            border: 1px solid #e2e2e2;
+            background: #fff;
+            box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+        }
+
+        .right-h-sec {
+            padding: 70px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 20px 50px 50px 30px rgba(82, 4, 93, 0.12);
+        }
+
+        .name {
+            margin-bottom: 10px;
+        }
+
+        .apply {
+            width: 360px;
+            padding: 14px 5px 14px 15px;
+            border-radius: 10px;
+            align-items: center;
+            background-color: #546af6;
+            color: white;
+            border: none;
+        }
+
+        .apply:hover {
+            color: white !important
+        }
+
+        .a {
+            display: flex;
+            text-decoration: none;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .our-courses {
+            background-color: #ecf8ff;
+            padding: 30px;
+        }
+
+        .course-we-offer>h1 {
+            color: #2f80ed;
+            text-align: center;
+            font-family: ABeeZee;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            /* 54px */
+            letter-spacing: -0.54px;
+        }
+
+        .card {
+            background-color: #ecf8ff;
+            border-radius: 5px;
+            margin-top: 50px;
+            width: rem;
+            display: flex;
+            flex-direction: row;
+            column-gap: 20px;
+            align-items: center;
+            justify-content: center;
+            border: none;
+        }
+
+        .card1 {
+            border: solid #2f80ed 3px;
+            background-color: #ffff;
+            border-radius: 8px;
+            width: 30rem;
+            row-gap: 10px;
+            padding: 20px;
+        }
+
+        .half-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            row-gap: 10px;
+            padding: 20px;
+        }
+
+        .Ideal-coders {
+            display: inline-flex;
+            padding: 6px 15px;
+            margin-top: -60px;
+            align-items: flex-start;
+            gap: 18px;
+            border-radius: 7px;
+            border: 2px solid #2f80ed;
+            background: var(--primaryskyblue, #2f80ed);
+            color: white;
+        }
+
+        .Ideal-coders>span {
+            color: var(--BLACK, #2b2f34);
+            font-family: ABeeZee;
+            font-size: 26px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .btn-1 {
+            color: #1d78b0;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            border: none;
+            border-radius: 10px;
+            padding: 5px 10px 5px 10px;
+        }
+
+        .placement {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .brochure:hover {
+            background-color: #2F80ED;
+        }
+
+        .learn-more {
+            color: white;
+            background: var(--primaryskyblue, #2f80ed);
+        }
+
+        .learn-more:hover {
+            color: black;
+        }
+
+        .sec4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 30px;
+        }
+
+        .hiringpara>p {
+            background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .companies {
+            padding: 70px;
+            margin: 30px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .companies-logo {
+            width: 205px;
+            height: 110px;
+            padding: 65px;
+            transition: width 2s ease, height 2s ease, transform 2s ease;
+        }
+
+        .btn-2 {
+            display: flex;
+            width: 250px;
+            color: #fff;
+            padding: 14px 6px 14px 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 2px;
+            border-radius: 8px;
+            background: var(--primaryskyblue, #2f80ed);
+            border: none;
+        }
+        .card-para > p {
+        font-style: normal;
+    }
+    .Alumni {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        align-items: center;
+    }
+    .name-of-student {
+        font-size: small;
+    }
+    .student-card {
+        width: calc(100% - 20rem);
+        display: grid;
+        height: fit-content;
+        grid-template-columns: repeat(3, 4fr);
+        grid-template-rows: 2;
+        gap: 15px;
+    }
+    .card-1-upper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card-1 {
+        border-radius: 10px;
+        padding: 24px;
+        border: 2px solid #d7d7d7;
+        background: #fff;
+        height: fit-content;
+        box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
+    }
+    .card-4{
+        border-radius: 10px;
+        padding: 24px;
+        border: 2px solid #d7d7d7;
+        background: #fff;
+        height: fit-content;
+        margin-top: -95px;
+        box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
+    }
+    .card-6{
+        border-radius: 10px;
+        padding: 24px;
+        border: 2px solid #d7d7d7;
+        background: #fff;
+        height: fit-content;
+        margin-top: -50px;
+        box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
+    }
+    .Placement_Report:hover{
+        color:black;
+    }
+    .companies-logo>img:hover{
+        width: 200px;
+        height: 100px;
+    }
+    @media screen and (max-width:500px) {
+        .navbar{
+        display: flexbox;
+        flex-direction: column;
+    }
+    .hero-section{
+        display: none;
+    }
+    }
+    </style>
+</head>
+
+<body>
+
+    <nav class="p-3 shadow text-center">
+        <div class="navbar-container d-flex justify-content-between align-content-center">
+            <div class="navbar-logo">
+                <a href="#"><img src="https://acciojob.com/_next/static/media/full_logo.1a83ae71.svg?imwidth=384"
+                        alt="Acciojob N.S.D.C. logo"></a>
+            </div>
+            <div class="navbar-right-items d-flex align-content-center pt-2">
+                <ul class="navbar-navigation-links d-flex list-unstyled ">
+                    <a class="text-decoration-none pe-5" href="#courses">
+                        <li class="fw-light">Courses
+                            <span>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </li>
+                    </a>
+                    <a class=" text-decoration-none pe-5" href="#testimonials">
+                        <li class="fw-light">
+                            AccioJob Reviews
+                        </li>
+                    </a>
+
+                    <a class=" text-decoration-none pe-5" href="#courses">
+                        <li class="fw-light">
+                            Scholarship Test
+                        </li>
+                    </a>
+                    <a class=" text-decoration-none pe-5" href="#hiring-partners">
+                        <li class="fw-light">
+                            More
+                            <span>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </li>
+                    </a>
+                </ul>
+                <div class="nav-btn">
+                    <button class="navbar-login-btn btn btn-outline-primary me-5">Login</button>
+                    <span>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z">
+                            </path>
+                        </svg>
+                    </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- anounce bar -->
+    <div class="announce-bar text-center p-2 bg-primary text-white">Next batch starts on ⌛️ 5th October. Hurry, limited
+        seats left!</div>
+
+    <!-- <main>
+            <section id="hero-section ">
+                <div class="hero-left p-5">
+                    <h1 class="hero-heading">Launch your career with our <br><span class="heading-span-blue">Full Stack Developer</span> Courses</h1>
+                    <div class="hero1 d-flex justify-content-between">
+                        <p class="hero-subheading">Curriculum designed and taught by Alumni from IIT's & <br>Leading Tech Companies</p>
+                        <div class="arrow d-flex">
+                            <img class="" alt="" src="https://acciojoblandingpage.netlify.app/images/icon1.png">
+                           <div>
+                                <p class="fs-4 ps-2">41 Lakhs</p>
+                                <p>Highest Salary</p>
+                                <img class="" alt="" src="https://acciojoblandingpage.netlify.app/images/icon2.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main> -->
+
+    <header class="below-hero-section d-flex justify-content-evenly">
+        <div class="left-h-sec">
+            <div class="l1"><b>Launch your career with our</b></div>
+            <div class="launchyourcareer1">
+                <p><b>Full Stack Developer </p>
+                Courses </b>
+            </div>
+            <div class="curriculum">Curriculum designed and taught by Alumni from IIT’s &<br> Leading Tech Companies.
+            </div>
+            <div class="left-above-hero-sec">
+                <div class="highest">
+                    <div class="lakh41" style="text-align: center;"> <img
+                            src="https://acciojob.com/_next/static/media/medel.26c4481e.svg?imwidth=20"> <b>41 Lakhs</b>
+                    </div>
+                    <div class="Highest-Salary"> Highest Salary</div>
+                </div>
+                <div class="highest">
+                    <div class="lakh41"><img
+                            src="https://acciojob.com/_next/static/media/people_orange.3c733ba9.svg?imwidth=48"><b>300+</b>
+                    </div>
+                    <div class="Highest-Salary">Partner Companies</div>
+                </div>
+                <div class="highest">
+                    <div class="lakh41"> <img
+                            src="https://acciojob.com/_next/static/media/sheild_green_check.eb639f41.svg?imwidth=48"><b>100%</b>
+                    </div>
+                    <div class="Highest-Salary">Job Guarantee</div>
+                </div>
+                <div class="highest">
+                    <div class="lakh41"> <img
+                            src="https://acciojob.com/_next/static/media/doler_round_blue.a2c7bc89.svg?imwidth=48"><b>8.3
+                            LPA</b></div>
+                    <div class="Highest-Salary">Average Salary</div>
+                </div>
+            </div>
+            <div class="left-below-hero-sec bg-#fff br-23 mt-5">
+                Made with 💙 by Mohammad Uzer
+            </div>
+
+        </div>
+        <div class="right-h-sec d-inline-flex">
+            <h2 style="text-align: center;"><b><i>Start Attending Live Classes for Free!</i></b></h2>
+            <p style="text-align: center; color: grey;">Live lectures & Assignments curated by Top Tech Proffesionals
+            </p>
+            <form>
+                <div class="name">
+                    <i class="fa fa-id-badge" aria-hidden="true"></i>
+                    <input type="text" id="name" placeholder="Mohammad Uzer"
+                        style="padding:5px;  border:none; background-color: #fafafa; ">
+                </div>
+                <div class="number">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <input type="text" id="name" placeholder="Phone No."
+                        style="padding:5px; border:none; background-color: #fafafa;">
+                </div>
+            </form>
+            <div>
+                <button class="apply">Apply Now For Free ></button>
+                <pre>By clicking ‘Apply now’ ,you agree to our
+                      <a class="a" href="#">Terms & Conditions</a>
+                    </pre>
+            </div>
+        </div>
+    </header>
+
+    <section class="our-courses">
+        <div class="course-we-offer">
+            <h5 class="justify-content-center d-flex"><i>LEARN FULL-STACK WEB DEVELOPMENT</i></h5>
+            <h1 class="justify-content-center d-flex color">OUR COURSES</h1>
+        </div>
+        <div class="card d-flex justify-content-between">
+            <div class="card1">
+                <div class="half-card">
+                    <div class="ideal-coder"><i>Ideal for first-time coder</i></div>
+                    <div class="beginner">
+                        <h2><i class="fa-solid fa-leaf"></i><i>Beginner</i></h2>
+                    </div>
+                    <div>
+                        <button class="btn-1">100% Job Gaurantee</button>
+                        <button class="btn-1">Lifetime Access</button>
+                    </div>
+                    <div>For you to start their coding journey from scratch</div>
+                </div>
+                <div class="placement">
+                    <div><i class="fa fa-suitcase" aria-hidden="true">placement Starts</div>
+                    <div><i>in 4 Months</i></div>
+                </div>
+                <hr>
+                <div class="placement">
+                    <div><i class="fa fa-graduation-cap" aria-hidden="true">Eligibilty</div>
+                    <div><i>Final year students or <br>Grraduates, All degrees</i></div>
+                </div>
+                <hr>
+                <div class="placement">
+                    <div><i class="fa-solid fa-clock">Durations</div>
+                    <div><i>12 Months</i></div>
+                </div>
+                <hr>
+                <div class="placement">
+                    <div><i class="fa fa-suitcase">Daily Efforts</div>
+                    <div><i>5-7 hours</i></div>
+                </div>
+                <hr>
+                <div class="placement">
+                    <div><i class="fa-solid fa-backward-step fa-rotate-180">Next Batch On</div>
+                    <div><i>4th March 2024</i></div>
+                </div>
+                <div class="buttons">
+                    <button class="brochure" style="color: blue;><i class=" fa-solid fa-download"></i>Brochure</button>
+                    <button class="brochure learn-more">Learn More ></button>
+                </div>
+            </div>
+            <div class="card1" style>
+                <div class="half-card">
+                    <div class="begginer">
+                        <h2>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+                                class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                                style="color: black;">
+                                <path
+                                    d="M12 14h6v2h-6zM6.293 9.707 8.586 12l-2.293 2.293 1.414 1.414L11.414 12 7.707 8.293z">
+                                </path>
+                                <path
+                                    d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zM4 18V6h16l.002 12H4z">
+                                </path>
+                            </svg>
+                            <i>Intermediate</i>
+                        </h2>
+                    </div>
+                    <div>
+                        <button class="btn-1" style="color: #965400; background-color: #f3bc73;">Pay After
+                            Placement</button>
+                        <button class="btn-1" style="color: #965400; background-color: #f3bc73;">Lifetime
+                            Access</button>
+                    </div>
+                    <div>For learners with good aptitude & logical reasoning</div>
+                </div>
+                <div class="placement">
+                    <div><i class="fa fa-suitcase" aria-hidden="true"></i> placement Starts</div>
+                    <div><i>in 6 Months</i></div>
+                </div>
+                <hr>
+                <div class="placement">
+                    <div><i class="fa fa-graduation-cap" aria-hidden="true"></i> Eligibility</div>
+                    <div>2019-2023 Batch students, All Degrees </div>
+                </div>
+                <hr>
+                <div class="placement">
+                    <div><i class="fa-solid fa-clock"></i> Duration</div>
+                    <div><i>10 Months</i></div>
+                </div>
+                <hr>
+                <div class="placement">
+                    <div><i class="fa-solid fa-notebook"></i> Daily Effort</div>
+                    <div><i>8-10 hours</i></div>
+                </div>
+                <hr>
+                <div class="placement">
+                    <div><i class="fa-solid fa-backward-step fa-rotate-180"></i> Next Batch On</div>
+                    <div><i>27th Dec 2022</div>
+                </div>
+                <div class="buttons">
+                    <button class="brochure" style="color: blue;"><i class="fa-solid fa-download"></i>Brochure</button>
+                    <button class="brochure learn-more">Leran More ></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec4">
+        <div class="hiringpara">
+            <p><i>OVER 300 + HIRING PARTNERS</i></p>
+        </div>
+        <div>
+            <h1><i><strong>Startups & MNC’s Hire</strong> </i></h1>
+        </div>
+        <div>
+            <h1><i><a href="#"><b>Software Engineer</b></a></i></h1>
+        </div>
+        <div>
+            <h6 style="color: grey;"><i>From AccioJob upto 41 Lakhs</i></h6>
+        </div>
+        <div class="companies">
+            <div class="companies-logo"><img
+                    src="https://acciojob.com/src/CompaniesLogo/HiringPartner/5_MakeMyTrip.webp" width="150px"></div>
+            <div class="companies-logo"><img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/2_Amazon.webp"
+                    width="150px"></div>
+            <div class="companies-logo"><img
+                    src="https://acciojob.com/src/CompaniesLogo/HiringPartner/7_Thoughtworks.webp" width="150px"></div>
+            <div class="companies-logo"><img
+                    src="https://acciojob.com/src/CompaniesLogo/HiringPartner/34_Indiamart.webp" width="150px"></div>
+            <div class="companies-logo"><img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/3_Lowes.webp"
+                    width="150px"></div>
+            <div class="companies-logo"><img
+                    src="https://acciojob.com/src/CompaniesLogo/HiringPartner/20_BNY-Mellon.webp" width="150px"></div>
+            <div class="companies-logo"><img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/15_Verifone.webp"
+                    width="150px"></div>
+            <div class="companies-logo"><img
+                    src="https://acciojob.com/src/CompaniesLogo/HiringPartner/12_Innovacer.webp" width="150px"></div>
+            <div class="companies-logo"><img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/28_Optum.webp"
+                    width="150px"></div>
+            <div class="companies-logo"><img
+                    src="https://acciojob.com/src/CompaniesLogo/HiringPartner/32_Leadsquared.webp" width="150px"></div>
+            <div class="companies-logo"><img
+                    src="https://acciojob.com/src/CompaniesLogo/HiringPartner/24_OLA-Electric.webp" width="150px"></div>
+            <div class="companies-logo"><img
+                    src="https://acciojob.com/src/CompaniesLogo/HiringPartner/27_IDFC-First-Bank.webp" width="150px">
+            </div>
+            <div class="companies-logo"><img
+                    src="https://acciojob.com/src/CompaniesLogo/HiringPartner/31_Man-Matters.webp" width="150px"></div>
+            <div class="companies-logo"><img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/35_Adda247.webp"
+                    width="150px"></div>
+            <div class="companies-logo"><img
+                    src="https://acciojob.com/src/CompaniesLogo/HiringPartner/13_Freecharge.webp" width="150px"></div>
+            <div class="companies-logo"><img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/29_Vmock.webp"
+                    width="150px"></div>
+            <div class="companies-logo"><img src="https://acciojob.com/src/CompaniesLogo/HiringPartner/9_Neustar.webp"
+                    width="150px"></div>
+            <div class="companies-logo"><img
+                    src="https://acciojob.com/src/CompaniesLogo/HiringPartner/24_OLA-Electric.webp" width="150px"></div>
+        </div>
+        <div><button class="btn-2 Placement_Report"><i>Placement Report ></i></button></div>
+    </section>
+
+    <section class="Alumni">
+        <div><h1>AccioJob Wall Of Love</h1></div>
+        <div class="card-para"><p>Our Alumni Say it Best</p></div>
+        <div class="student-card">
+           <div class="card-1">
+               <div class="card-1-upper">
+                   <div class="image1"><img src="https://acciojob.com/_next/static/media/Pradyot.e2e741b6.webp?imwidth=128"></div>
+                   <div class="name-of-student"><h4><i>Virat Kohli</i></h4><p>SDE-II at Indian Cricket Board</p></div>
+                   <div class="social-media-logo"><i class="fa-brands fa-linkedin"></i></div>
+               </div>
+               <div><p>My Life changed when I became a part of the
+                   AccioJob family. Before that I was not able to
+                   score any centuries. As soon as I joined Accio,
+                   I hit a century against Afganistan.</p></div>
+                   <div><p>Jun 14, 2022</p></div>
+           </div>
+           <div class="card-1">
+               <div class="card-1-upper">
+                   <div class="image1"><img src="https://acciojob.com/_next/static/media/Saurabveer.0262826b.webp?imwidth=128"></div>
+                   <div class="name-of-student"><h4><i>Ishan Kishan</i></h4><p>Intern at Indian Cricket Board</p></div>
+                   <div class="social-media-logo"><i class="fa-brands fa-linkedin"></i></div>
+               </div>
+               <div><p>My Life changed when I became a part of the
+                   AccioJob family. Before that I was not able to
+                   score any centuries. As soon as I joined Accio,
+                   I hit a century against Afg anistan. My Life changed when I became a part of the AccioJob family. Before that I was not able to score any centuries. As soon as I joined Accio, I hit a century against Afganistan..</p></div>
+                   <div><p>Jun 14, 2022</p></div>
+           </div>
+           <div class="card-1">
+               <div class="card-1-upper">
+                   <div class="image1"><img src="https://acciojob.com/_next/static/media/Shubham%20Chavan.be4bc96c.webp?imwidth=256"></div>
+                   <div class="name-of-student"><h4><i>Virender Sehwag</i></h4><p>SDE-IV at Indian Cricket Board</p></div>
+                   <div class="social-media-logo"><i class="fa-brands fa-linkedin"></i></div>
+               </div>
+               <div><p>My Life changed when I became a part of the
+                   AccioJob family. Before that I was not able to
+                   score any centuries. As soon as I joined Accio,
+                   I hit a century against Afganistan. Then I got 
+                   offers from RCB for IPL as captain again. Bas
+                   ab India World Cup Jeet jaye.</p></div>
+                   <div><p>Jun 14, 2022</p></div>
+           </div>
+           <div class="card-4">
+               <div class="card-1-upper">
+                   <div class="image1"><img src="https://acciojob.com/_next/static/media/Praveen.37b8b3f1.webp?imwidth=128"></div>
+                   <div class="name-of-student"><h4><i>Rohit Sharma</i></h4><p>SDE-II at Indian Cricket Board</p></div>
+                   <div class="social-media-logo"><i class="fa-brands fa-linkedin"></i></div>
+               </div>
+               <div><p>My Life changed when I became a part of the
+                   AccioJob family. Before that I was not able to
+                   score any centuries. As soon as I joined Accio,
+                   I hit a century against Afganistan. Then I got 
+                   offers from RCB for IPL as captain again. Bas
+                   ab India World Cup Jeet jaye.</p></div>
+                   <div><p>Jun 14, 2022</p></div>
+           </div>
+           <div class="card-1">
+               <div class="card-1-upper">
+                   <div class="image1"><img src="https://acciojob.com/_next/static/media/Lalit.1eecd9ad.webp?imwidth=128"></div>
+                   <div class="name-of-student"><h4><i>Sarfaraz Ahmed</i></h4><p>WK at Pak. Cricket Board</p></div>
+                   <div class="social-media-logo"><i class="fa-brands fa-linkedin"></i></div>
+               </div>
+               <div><p>Inshallah Boys Played well. My answer also same
+                   Inshallah Boys! Well done!</p></div>
+                   <div><p>Jun 14, 2022</p></div>
+           </div>
+           <div class="card-6">
+               <div class="card-1-upper">
+                   <div class="image1"><img src="https://acciojob.com/_next/static/media/Shubham.67599e49.webp?imwidth=128"></div>
+                   <div class="name-of-student"><h4><i>Sachin Tendulkar</i></h4><p>God at Indian Cricket Board</p></div>
+                   <div class="social-media-logo"><i class="fa-brands fa-linkedin"></i></div>
+               </div>
+               <div><p>My Life changed when I became a part of the
+                   AccioJob family. Before that I was not able to
+                   score any centuries. As soon as I joined Accio,
+                   I hit a century against Afganistan.</p></div>
+                   <div><p>Jun 14, 2022</p></div>
+           </div>
+        </div>
+ </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
